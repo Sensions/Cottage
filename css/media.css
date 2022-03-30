@@ -105,7 +105,9 @@
 }
 @media screen and (max-width:570px){
   .cottage {
-    padding: 195px 0 40px;
+    /* padding: 195px 0 40px; */
+    background-position: center;
+    min-height: 100vh;
   }
   .cottage-list{
     width: 60%;
@@ -113,6 +115,7 @@
   .cottage h1{
     line-height: 39px;
     font-size: 30px;
+      margin: 0 auto 55px;
   }
   .cottage h3{
     font-size: 13px;
