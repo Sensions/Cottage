@@ -1,0 +1,155 @@
+
+.view {
+    padding: 305px 0 290px;
+    background-image: url(../images/view.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.view h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 74px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+}
+
+.apartments-info {
+    padding: 120px 0 80px;
+}
+
+.apartments-info-wr {
+    display: grid;
+    grid-template-areas:
+        "ap-one ap-two"
+        "ap-three ap-four";
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+
+}
+
+.ap-one{
+    grid-area: ap-one;
+}
+.ap-two{
+    grid-area: ap-two;
+}
+.ap-three{
+    grid-area: ap-three;
+}
+.ap-four{
+    grid-area: ap-four;
+}
+.apartments-info h6 {
+    color: #967d48;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.apartments-info h2 {
+    color: #252525;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.apartments-info p {
+    color: #252525;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+}
+
+.apartments-info span {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.apartments-info img {
+    margin-bottom: 15px;
+}
+
+.apartments-bg {
+    background-image: url(../images/people.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 1078px;
+    margin-bottom: 100px;
+}
+
+.house {
+    margin-bottom: 80px;
+}
+
+.house h1 {
+    color: #252525;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.house p {
+    max-width: 740px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #252525;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+}
+
+.house-img-bk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.house-img-bk img{
+    max-width: 330px;
+    height: 320px;
+    border-radius: 5px;
+}
+
+.house-bg {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background-image: url(../images/road.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.house-bg h2 {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    line-height: 68px;
+    font-weight: 400;
+    font-family: "Libre Baskerville", Helvetica, Arial, sans-serif;
+}

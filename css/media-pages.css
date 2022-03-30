@@ -1,0 +1,137 @@
+@media screen and (max-width:1080px) {
+    .contacts-forms-call-wr img {
+        width: 336px;
+        height: 313px;
+        margin-top: -209px;
+    }
+
+}
+@media screen and (max-width:920px) {
+    .region-info2 h3{
+        text-align: center;
+        max-width: 100%;
+    }
+    .region-info2-wr{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .region-info2-wr2{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:767px) {
+    .view h1, .about-main h1, .contact-title h2{
+        padding: 0 15px;
+        font-size: 49px;
+    }
+    .apartments-info-wr {
+        grid-template-areas:
+            "ap-one" 
+            "ap-two"
+            "ap-four"
+            "ap-three" ;
+        grid-row-gap: 70px;
+        text-align: center;
+    }
+    .region-info h3 {
+        text-align: center;
+    }
+    .region-info-wr{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 45px;
+    }
+    .region-bk1{
+        text-align: center;
+    }
+    .region-info2-bk2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .region-info2-bk2-icons{
+        margin: 30px;
+    }
+    .about-info-wr {
+        flex-wrap: wrap;
+    }
+    .about-info h6{
+        text-align: center;
+    }
+    .contact-title {
+        padding-bottom: 55px;
+    }
+    .contacts-forms-call-wr{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contacts-forms-call-wr img{
+        margin-top: 0;
+    }
+    .contacts-forms-call-wr h3 {
+        font-size: 21px;
+        line-height: 20px;
+        letter-spacing: 1px;
+}
+.contact-forms-wr{
+    width: 100%;
+    grid-template-areas: 
+    "forms-bk-one" 
+    "forms-bk-three" 
+    "forms-bk-two"
+    "forms-bk-four";
+    text-align: center;
+}
+.forms-bk-one p{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.input-name, .input-adress{
+    flex-wrap: wrap;
+}
+.input-name input, .input-email, .input-phone{
+  width: 300px;
+    margin: 0 auto; 
+ }
+ 
+}
+@media screen and (max-width: 570px){
+.view h1, .about-main h1, .contact-title h2 {
+    line-height: 48px;
+    font-size: 38px;
+}
+.apartments-info h2 {
+    font-size: 28px;
+    line-height: 42px;
+}
+.apartments-info p {
+    font-size: 17px;
+    line-height: 30px;
+}
+.house-bg h2, .region-bg h1 {
+    font-size: 41px;
+    line-height: 62px;
+}
+.region-title h1 {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0px;
+}
+.region-info-wr span {
+    font-size: 27px;
+    line-height: 40px;
+}
+.region-info-wr p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.about-sign h3 {
+    font-size: 25px;
+    line-height: 46px;
+}
+.about-info h3 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 47px;
+}
+}

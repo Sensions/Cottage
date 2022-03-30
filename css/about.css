@@ -1,0 +1,145 @@
+.about-main{
+    padding: 305px 0 290px;
+    background-image: url(../images/lake-view.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about-main h1{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 74px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+}
+.about-sign{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-color: #f6f2e8;
+}
+.about-sign h6{
+    text-align: center;
+    color: #967d48;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    margin-bottom: 30px;
+}
+.about-sign h3{
+    text-align: center;
+    color: #252525;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+}
+.about-sign img{
+    margin: 0 auto;
+    display: block;
+}
+.about-house{
+    padding-bottom: 80px;
+    background-color: #f6f2e8;
+}
+.about-house h3{
+    text-align: center;
+    color: #252525;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-bottom: 30px;
+}
+.about-house h4{
+    text-align: center;
+    color: #252525;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-bottom: 30px;
+}
+.about-house-img-wr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.about-house-img-bk{
+    max-width: 330px;
+    height: 320px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+
+}
+.about-house-img-wr img{
+    object-fit: cover;
+    max-width: 330px;
+    height: 320px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.about-house-img-wr img:hover{
+    transform: scale(1.05);
+}
+.about-bg{
+    background-image: url(../images/about-heart.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 970px;
+}
+.about-info{
+    padding: 120px 0 80px;
+}
+.about-info h6{
+    color: #967d48;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+}
+.about-info h3{
+    color: #252525;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-bottom: 40px;
+}
+.about-info-wr{
+    display: flex;
+    gap: 25px;
+}
+.about-info-wr span{
+    background-color: #967d48;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.about-info-wr p{
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}

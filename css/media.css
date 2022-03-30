@@ -1,0 +1,141 @@
+@media screen and (max-width:1020px) {
+  .info-two{
+    text-align: center;
+    flex-wrap:wrap-reverse;
+    gap: 50px;
+  }
+  .info-three{
+    column-gap: 15px;
+  }
+  .main-info-button{
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:767px) {
+  header .burger{
+    display: block;
+  }
+  .cottage-list{
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    right: -330px;
+    background-color: white;
+    z-index: 100;
+    padding-top: 15px;
+    transition: .9s ease-in-out;
+
+  }
+  .cottage-list-active{
+    right: 0;
+  }
+  .cottage-list img{
+  display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 20;
+  }
+  
+  .cottage-list li{
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 11px 5px 0px 20px;
+    border-bottom: 1px solid #967d48;
+  }
+  .cottage-list a {
+    line-height: 38px;
+    padding: 0 20px;
+}
+.cottage h1{
+  font-size: 49px;
+}
+    .cards-wrapper{
+      flex-wrap: wrap;
+      margin: 70px 0 90px;
+      justify-content: center;
+    }
+    .cards-item{
+      width: 70%;
+      margin-bottom: 30px;
+    }
+    .info-one {
+      padding: 120px 15px 80px;
+    }  
+    .info-three{
+      text-align: center;
+      flex-wrap:wrap;
+      gap: 50px;
+    }
+    .main-icons-wr{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .main-icons-bk{
+      width: 70%;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-areas:
+      "footer-item-one"
+      "footer-item-four" 
+      "footer-item-two"
+      "footer-item-five"
+      "footer-item-three"
+      "footer-item-six";
+      text-align: center;
+      grid-row-gap: 40px;
+  }
+  .footer-info{
+    gap: 30px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .footer-info p{
+    text-align: center;
+  }
+    
+}
+@media screen and (max-width:570px){
+  .cottage {
+    padding: 195px 0 40px;
+  }
+  .cottage-list{
+    width: 60%;
+  }
+  .cottage h1{
+    line-height: 39px;
+    font-size: 30px;
+  }
+  .cottage h3{
+    font-size: 13px;
+  }
+  .cards-item{
+    width: 90%;
+  }
+  .info-one h1 {
+    font-size: 26px;
+    line-height: 39px;
+}
+.info-one p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.info-bk img, .info-slider, .info-slider img {
+  max-width: 320px;
+  height: 390px;
+}
+}
+@media screen and (max-width:320px){
+  .info-bk img, .info-slider, .info-slider img {
+    max-width: 250px;
+    height: 390px;
+  }
+}
